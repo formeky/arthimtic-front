@@ -1,0 +1,42 @@
+.cardList{
+    margin: 30px 0 0 5%;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100vh - 115px);
+    position: static;
+    top: 84px;
+    float: left;
+    min-height: 550px;
+}
+.statisticalCard{
+    /*margin: 20px 0;*/
+    width: 200px;
+    height: 120px;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 0 #c2c2c2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    transition: transform ease-in-out .2s;
+}
+.statisticalCard:hover{
+    transform: scale(1.05);
+}
+.statisticalCard>p{
+    margin: 10px 0;
+    font-size: 18px;
+}
+.rankWrap{
+    margin: 20px 5% 0 0;
+    float: right;
+    width: calc(85% - 200px);
+}
+.tableCaption{
+    /*font-size: 18px !important;*/
+}

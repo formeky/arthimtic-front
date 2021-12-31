@@ -1,0 +1,87 @@
+.logo{
+    width: 20px;
+    height: 20px;
+    color: #0078d4;
+    display: inline-block;
+    vertical-align: -2px;
+}
+.title{
+    padding-left: 8px;
+    font-size: 18px;
+    color: #0078d4;
+}
+/*.title:after{*/
+/*    border-left: 2px solid #737373;*/
+/*    height: 24px;*/
+/*    content: " ";*/
+/*    margin-left: 20px;*/
+/*}*/
+.header{
+    padding: 0 40px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 100;
+}
+.userDetail{
+    height: 100%;
+    width: 150px;
+    float: right;
+    cursor: pointer;
+    text-align: right;
+    position: relative;
+}
+.userName{
+    margin-right: 15px;
+    font-size: 14px;
+}
+.userDrop{
+    padding: 10px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    box-shadow: 0 0 1px 0 #324157;
+    border-radius: 5px;
+    width: 180px;
+    background-color: #fff;
+    min-height: 200px;
+    text-align: left;
+    cursor: default;
+    visibility: hidden;
+}
+.userDrop>div{
+    height: 28px;
+    line-height: 28px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.navItem{
+    text-align: center;
+    margin: 0 25px;
+    color: #805AD5;
+    position: relative;
+}
+.navItem[data-active=true]:after{
+    content: ' ';
+    position: absolute;
+    top: calc(100% + 5px);
+    width: calc(100% + 2px);
+    height: 2px;
+    left: -1px;
+    background-color: #805AD5;
+}
+.navList{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+/*.indicator{*/
+/*    position: absolute;*/
+/*    bottom: 8px;*/
+/*    left: 25px;*/
+/*    width: 33px;*/
+/*    height: 2px;*/
+/*    background-color: #805AD5;*/
+/*}*/

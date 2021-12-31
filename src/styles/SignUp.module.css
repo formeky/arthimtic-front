@@ -1,0 +1,9 @@
+.wrap{
+    margin-top: 5vh;
+}
+.allAvatars{
+    transition: all ease-in-out .1s;
+}
+.allAvatars[data-selected=true]{
+    border-color: #805AD5;
+}

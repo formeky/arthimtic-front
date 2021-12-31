@@ -1,0 +1,31 @@
+.wrap{
+    padding: 30px 35px;
+    width: 400px;
+    margin: 15vh auto 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 #dadada;
+}
+.title{
+    margin-bottom: 35px;
+    font-size: 22px;
+    text-align: center;
+    color: #086F83;
+}
+.submit{
+    margin-top: 20px;
+}
+.loginTips{
+    margin: 20px 0;
+}
+.noAccount,.forgetPasswd{
+    display: inline-block;
+    font-size: 15px;
+}
+.forgetPasswd{
+    float: right;
+}
+.redirectBtn{
+    color: #48BB78;
+    text-decoration: underline;
+}
